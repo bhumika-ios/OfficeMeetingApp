@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC8D225128F42C09006B9855 /* OfficeMeetingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D225028F42C09006B9855 /* OfficeMeetingAppApp.swift */; };
-		AC8D225328F42C09006B9855 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D225228F42C09006B9855 /* ContentView.swift */; };
+		AC8D225328F42C09006B9855 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D225228F42C09006B9855 /* MeetingView.swift */; };
 		AC8D225528F42C0B006B9855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8D225428F42C0B006B9855 /* Assets.xcassets */; };
 		AC8D225828F42C0B006B9855 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8D225728F42C0B006B9855 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		AC8D224D28F42C09006B9855 /* OfficeMeetingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeMeetingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8D225028F42C09006B9855 /* OfficeMeetingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeMeetingAppApp.swift; sourceTree = "<group>"; };
-		AC8D225228F42C09006B9855 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC8D225228F42C09006B9855 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		AC8D225428F42C0B006B9855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC8D225728F42C0B006B9855 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				AC8D225028F42C09006B9855 /* OfficeMeetingAppApp.swift */,
-				AC8D225228F42C09006B9855 /* ContentView.swift */,
+				AC8D225228F42C09006B9855 /* MeetingView.swift */,
 				AC8D225428F42C0B006B9855 /* Assets.xcassets */,
 				AC8D225628F42C0B006B9855 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8D225328F42C09006B9855 /* ContentView.swift in Sources */,
+				AC8D225328F42C09006B9855 /* MeetingView.swift in Sources */,
 				AC8D225128F42C09006B9855 /* OfficeMeetingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
