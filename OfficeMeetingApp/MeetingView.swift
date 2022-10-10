@@ -12,8 +12,13 @@ struct MeetingView: View {
         VStack {
            ProgressView(value: 5,total: 15)
             HStack{
-                Text("Seconds Elapsed")
-                Text("Seconds Remaining")
+                VStack {
+                    Text("Seconds Elapsed")
+                    Label("300", systemImage: "hourglass.bottomhalf.fill")
+                }
+                VStack {
+                    Text("Seconds Remaining")
+                }
             }
         }
         .padding()
