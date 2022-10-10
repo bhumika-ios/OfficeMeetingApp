@@ -20,10 +20,12 @@ struct MeetingView: View {
                 Spacer()
                 VStack(alignment:.trailing){
                     Text("Seconds Remaining")
-                        .font(.caption)
+                    
                     Label("600", systemImage: "hourglass.tophalf.fill")
                 }
             }
+            Circle()
+                .strokeBorder(lineWidth: 24)
         }
         .padding()
     }
